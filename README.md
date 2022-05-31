@@ -13,7 +13,7 @@ It currently supports all the sensors (door/window and motion), the security sys
 
 - Clone the repo
 ```
-git clone https://github.com/lenny005/homebridge-freebox-home
+git clone https://github.com/blegat1/homebridge-freebox-home
 ```
 - Go the the homebridge-freebox-home directory
 ```
