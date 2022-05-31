@@ -19,18 +19,11 @@ git clone https://github.com/blegat1/homebridge-freebox-home
 ```
 cd homebridge-freebox-home
 ```
-- First install dependencies
+- Install plugins then start the server
 ```
-pnpm install
-pnpm run homebridge-install
+init
 ```
-- Start Homebridge
-Check that you already installed homebridge
 
-- Then start the server
-```
-pnpm run start
-```
 That will automatically setup the environement, pair to the local freebox server and build the homebridge config file.
 So you might want to stay near the freebox to allow the app through the LCD screen.
 
