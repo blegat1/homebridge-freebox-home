@@ -7,7 +7,7 @@ module.exports = function(sensorController) {
 
     this.setup = function(config, callback) {
         let homedir = require('os').homedir()
-        let confFilePath = '/var/lib/homebridge/config.json'
+        let confFilePath = '/homebridge/config.json'
 
         var alarmEnabled = false
         var cameraEnabled = false
